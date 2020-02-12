@@ -29,7 +29,9 @@ This is a starter kit for INFS2605 students. It will set you up to develop JavaF
 
 6. Go to https://gluonhq.com/products/javafx/ and download the "Product" called **JavaFX Mac OS X jmods**. You will get a ZIP file - extract it by double-clicking it. You can see it contains 7 files that end with the file extension `.jmod`. Copy this into the folder from step 5.
 
-7. Clone this repository and open it in NetBeans 11. You will see that it compiles to a working JavaFX app.
+7. Go to https://gluonhq.com/products/scene-builder/ - download and install **Scene Builder for Java 11**.
+
+8. Clone this repository and open it in NetBeans 11. You will see that it compiles to a working JavaFX app.
 
 
 ## How do I get this working on Windows?
@@ -49,4 +51,6 @@ This is a starter kit for INFS2605 students. It will set you up to develop JavaF
 
 6. Go to https://gluonhq.com/products/javafx/ and download the "Product" called **JavaFX Windows jmods**. You will get a ZIP file - extract it. You can see it contains 7 files that end with the file extension `.jmod`. Copy this into the folder from step 5.
 
-7. Clone this repository and open it in NetBeans 11. You will see that it compiles to a working JavaFX app.
+7. Go to https://gluonhq.com/products/scene-builder/ - download and install **Scene Builder for Java 11**.
+
+8. Clone this repository and open it in NetBeans 11. You will see that it compiles to a working JavaFX app.
