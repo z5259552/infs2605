@@ -1,7 +1,7 @@
 # INFS2605 FX Starter Kit
 
 ## What is this?
-This is a starter kit for INFS2605 students that establishes a working JavaFX program.
+This is a starter kit for INFS2605 students. It will set you up to develop JavaFX applications on the Java 11 platform using OpenJDK and OpenJFX.
 
 ## How do I get this working on macOS?
 1. Install Homebrew: https://brew.sh/
