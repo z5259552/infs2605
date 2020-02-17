@@ -52,7 +52,7 @@ For Windows:
 2. Open the Windows Start Menu and type `cmd`. Right click the **Command Prompt** menu item and select **Run as administrator**.
 3. Copy and paste this into Command Prompt and hit the `ENTER` key on your keyboard to execute the command:
     ```
-    cinst -y adoptopenjdk11 apache-netbeans.portable
+    cinst -y adoptopenjdk11 apache-netbeans.portable github-desktop
     ```
     - While the command is executing, you will see lines of information appear on the Command Prompt. This is diagnostic information, it is not problematic.
     - The command has finished executing once no more lines of information continue to appear in the Command Prompt and you just have the same prompt you had when you first opened the Command Prompt: `C:\Windows\system32>`.
@@ -66,4 +66,4 @@ For Windows:
 
 7. Go to https://gluonhq.com/products/scene-builder/ - download and install **Scene Builder for Java 11**.
 
-8. Clone this repository (either using a Git client, or using the **Clown or download** button in the top right-corner of this page and then clicking **Download ZIP**. Open this repository in NetBeans 11. You will see that it compiles to a working JavaFX app.
+8. Clone this repository using **GitHub Desktop** (you installed this in step 3). Then open this repository in **Apache NetBeans 11**. You will see that it compiles to a working JavaFX app.
