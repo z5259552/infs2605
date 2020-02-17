@@ -20,7 +20,7 @@ For Windows:
 1. Install Homebrew: https://brew.sh/
 2. Copy and paste this into Terminal and hit the `ENTER` key on your keyboard to execute the command:
     ```
-    brew cask install adoptopenjdk11 netbeans
+    brew cask install adoptopenjdk11 netbeans github
     ```
     - While the command is executing, you will see lines of information appear on the Terminal. This is diagnostic information, it is not problematic.
     - You may be required to enter your administrator password. If prompted to do so, enter it. You will not see any dots appear to represent the hidden characters of your password, only the blinking terminal cursor staying at the same spot on the screen, but fear not - your password is being entered!
@@ -44,7 +44,7 @@ For Windows:
 
 7. Go to https://gluonhq.com/products/scene-builder/ - download and install **Scene Builder for Java 11**.
 
-8. Clone this repository (either using a Git client, or using the **Clown or download** button in the top right-corner of this page and then clicking **Download ZIP**. Open this repository in NetBeans 11. You will see that it compiles to a working JavaFX app.
+8. Clone this repository using **GitHub Desktop** (you installed this in step 2). Then open this repository in **Apache NetBeans 11**. You will see that it compiles to a working JavaFX app.
 
 
 ## Setup instructions for Windows
