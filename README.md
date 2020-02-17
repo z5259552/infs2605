@@ -1,5 +1,5 @@
 # INFS2605 FX Starter Kit
-hii
+
 ## What is this?
 This is a starter kit for INFS2605 students. It will set you up to develop JavaFX applications on the Java 11 platform using NetBeans 11, OpenJDK 11 and OpenJFX 11.
 
