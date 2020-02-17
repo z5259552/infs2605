@@ -66,4 +66,4 @@ For Windows:
 
 7. Go to https://gluonhq.com/products/scene-builder/ - download and install **Scene Builder for Java 11**.
 
-8. Clone this repository using **GitHub Desktop** (you installed this in step 3). Then open this repository in **Apache NetBeans 11**. You will see that it compiles to a working JavaFX app.
+8. Clone this repository using **GitHub Desktop** (you installed this in step 3). You can see where, in your computer, the repository was cloned to by going to GitHub Desktop and hovering over the repository name. Then open this repository in **Apache NetBeans 11**. You will see that it compiles to a working JavaFX app.
