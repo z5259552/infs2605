@@ -3,7 +3,20 @@
 ## What is this?
 This is a starter kit for INFS2605 students. It will set you up to develop JavaFX applications on the Java 11 platform using NetBeans 11, OpenJDK 11 and OpenJFX 11.
 
-## How do I get this working on macOS?
+## System requirements
+For macOS:
+- macOS **10.14 Mojave** (if you need to maintain backwards compatibility with other 32-bit software that you need installed on your computer) or **macOS 10.15 Catalina**.
+- Older versions of macOS may not work properly. If your computer does not support at least macOS 10.14 Mojave, it may be too old to run the required sofware anyway.
+- It is always best practice to keep your computer updated with the latest updates from Apple. This is important not only for compatibility with new software, but also to receive security patches.
+
+For Windows:
+- Windows 10, build 1903 (May 2019 update) or newer.
+- All Windows 10 computers can update to the latest build using the **Windows 10 Update Assistant*: https://support.microsoft.com/en-au/help/3159635/windows-10-update-assistant
+- Windows 8/8.1 will probably work, but we cannot assist with your setup unless you are running Windows 10.
+- Windows 7 does not work with these instructions. It is theoretically possible to manually install the required components (AdoptOpenJDK 11, NetBeans 11, SceneBuilder) but you will need to manually figure out the necessary configuration for your particular computer. Since Windows 7 is no longer supported by Microsoft, we generally recommend against using Windows 7.
+- It is always best practice to keep your computer updated with the latest updates from Microsoft. This is important not only for compatibility with new software, but also to receive security patches.
+
+## Setup instructions for macOS
 1. Install Homebrew: https://brew.sh/
 2. Copy and paste this into Terminal and hit the `ENTER` key on your keyboard to execute the command:
     ```
@@ -31,10 +44,10 @@ This is a starter kit for INFS2605 students. It will set you up to develop JavaF
 
 7. Go to https://gluonhq.com/products/scene-builder/ - download and install **Scene Builder for Java 11**.
 
-8. Clone this repository and open it in NetBeans 11. You will see that it compiles to a working JavaFX app.
+8. Clone this repository (either using a Git client, or using the **Clown or download** button in the top right-corner of this page and then clicking **Download ZIP**. Open this repository in NetBeans 11. You will see that it compiles to a working JavaFX app.
 
 
-## How do I get this working on Windows?
+## Setup instructions for Windows
 1. Install Chocolatey: https://chocolatey.org/
 2. Open the Windows Start Menu and type `cmd`. Right click the **Command Prompt** menu item and select **Run as administrator**.
 3. Copy and paste this into Command Prompt and hit the `ENTER` key on your keyboard to execute the command:
@@ -53,4 +66,4 @@ This is a starter kit for INFS2605 students. It will set you up to develop JavaF
 
 7. Go to https://gluonhq.com/products/scene-builder/ - download and install **Scene Builder for Java 11**.
 
-8. Clone this repository and open it in NetBeans 11. You will see that it compiles to a working JavaFX app.
+8. Clone this repository (either using a Git client, or using the **Clown or download** button in the top right-corner of this page and then clicking **Download ZIP**. Open this repository in NetBeans 11. You will see that it compiles to a working JavaFX app.
