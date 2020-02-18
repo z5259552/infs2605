@@ -20,7 +20,7 @@ For Windows:
 1. Install Homebrew: https://brew.sh/
 2. Copy and paste this into Terminal and hit the `ENTER` key on your keyboard to execute the command:
     ```
-    brew cask install adoptopenjdk11 netbeans github scenebuilder
+    brew tap AdoptOpenJDK/openjdk; brew cask install adoptopenjdk11 netbeans github scenebuilder
     ```
     - While the command is executing, you will see lines of information appear on the Terminal. This is diagnostic information, it is not problematic.
     - You may be required to enter your administrator password. If prompted to do so, enter it. You will not see any dots appear to represent the hidden characters of your password, only the blinking terminal cursor staying at the same spot on the screen, but fear not - your password is being entered!
