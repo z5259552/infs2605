@@ -13,7 +13,7 @@ For Windows:
 - Windows 10, **build 1903 (May 2019 update)** or newer.
 - All Windows 10 computers can update to the latest build using the **Windows 10 Update Assistant**: https://support.microsoft.com/en-au/help/3159635/windows-10-update-assistant
 - Windows 8/8.1 will probably work, but we cannot assist with your setup unless you are running Windows 10.
-- Windows 7 is not officially supported but it seems that everything works fine if you just install PowerShell 3: https://www.microsoft.com/en-au/download/details.aspx?id=34595
+- Windows 7 will probably work, but we cannot assist with your setup unless you are running Windows 10. On Windows 7, you will need to install PowerShell 3: https://www.microsoft.com/en-au/download/details.aspx?id=34595
 - It is always best practice to keep your computer updated with the latest updates from Microsoft. This is important not only for compatibility with new software, but also to receive security patches.
 
 ## Setup instructions for macOS
