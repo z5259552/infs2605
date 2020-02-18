@@ -5,7 +5,7 @@ This is a starter kit for INFS2605 students. It will set you up to develop JavaF
 
 ## System requirements
 For macOS:
-- macOS **10.14 Mojave** (if you need to maintain backwards compatibility with other 32-bit software that you need installed on your computer) or **macOS 10.15 Catalina**.
+- macOS **10.14 Mojave** or **macOS 10.15 Catalina** (using 10.14 Mojave if you need to maintain backwards compatibility with other 32-bit software that you need installed on your computer).
 - Older versions of macOS might not work properly. If your computer does not support at least macOS 10.14 Mojave, it may be too old to run the required sofware anyway.
 - It is always best practice to keep your computer updated with the latest updates from Apple. This is important not only for compatibility with new software, but also to receive security patches.
 
