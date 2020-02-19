@@ -110,4 +110,6 @@ For Windows:
 
 ## Acknowledgements
 
-These instructions are expanded from an adaptation of: https://dzone.com/articles/adoptopenjdk-11-openjfx-netbeans
+- These instructions were written by [Blair Wang](www.blair.wang) for INFS2605 at UNSW Business School
+- These instructions are adapted from https://dzone.com/articles/adoptopenjdk-11-openjfx-netbeans
+- Thanks to the following INFS2605 (Term 1, 2020) tutors for testing: Kathy Xu, Aaron Ting, Jacob Meyerowitz, Phoebe Zhou.
