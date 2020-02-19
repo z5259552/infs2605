@@ -44,7 +44,7 @@ For Windows:
 
 7. Clone this repository using **GitHub Desktop** (you installed this in step 2). You can see where, in your computer, the repository was cloned to by going to GitHub Desktop and hovering over the repository name.
 
-8. Open **Apache NetBeans 11**. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 11 to import these settings or configuration from NetBeans 8.  (If you have accidentally allowed NetBeans 11 to import settings or configuration from NetBeans 8, you can reinstall NetBeans 11 with the command `brew cask remove adoptopenjdk11; brew cask install adoptopenjdk11`.)
+8. Open **Apache NetBeans 11**. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 11 to import these settings or configuration from NetBeans 8.  (If you have accidentally allowed NetBeans 11 to import settings or configuration from NetBeans 8, you can reinstall NetBeans 11 with the command `brew cask remove netbeans; brew cask install netbeans`.)
 
 9. In NetBeans 11, click on **Help --> About** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
 
