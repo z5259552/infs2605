@@ -103,3 +103,7 @@ For Windows:
 6. Save the `netbeans.conf` file.
 
 7. Repeat step 9 of the Setup Instructions for your platform to confirm you are now using JDK 11.
+
+## Known Issues
+
+- There is a known issue on macOS where this repository does not work properly if it is stored in a folder whose name has a spacebar (e.g. `/Users/Alice/INFS2605 2020/infs2605fxstarterkit`). The solution is to ensure that the full path does not, at any point, contain the spacebar character (e.g. consider renaming to: `/Users/Alice/INFS2605-2020/infs2605fxstarterkit`).
