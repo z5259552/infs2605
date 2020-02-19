@@ -42,7 +42,14 @@ For Windows:
 
 6. Go to https://gluonhq.com/products/javafx/ and download the "Product" called **JavaFX Mac OS X jmods**. You will get a ZIP file - extract it by double-clicking it. You can see it contains 7 files that end with the file extension `.jmod`. Copy this into the folder from step 5.
 
-7. Clone this repository using **GitHub Desktop** (you installed this in step 2). Then open this repository in **Apache NetBeans 11**. You will see that it compiles to a working JavaFX app.
+7. Clone this repository using **GitHub Desktop** (you installed this in step 2). You can see where, in your computer, the repository was cloned to by going to GitHub Desktop and hovering over the repository name.
+
+8. Open **Apache NetBeans 11**. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 11 to import these settings or configuration from NetBeans 8.
+
+9. In NetBeans 11, click on **NetBeans --> About NetBeans** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
+
+10. Open this repository in NetBeans 11. You will see that it compiles to a working JavaFX app.
+
 
 
 ## Setup instructions for Windows
@@ -63,4 +70,10 @@ For Windows:
 
 6. Go to https://gluonhq.com/products/scene-builder/ - download and install **Scene Builder for Java 11**.
 
-7. Clone this repository using **GitHub Desktop** (you installed this in step 2). You can see where, in your computer, the repository was cloned to by going to GitHub Desktop and hovering over the repository name. Then open this repository in **Apache NetBeans 11**. You will see that it compiles to a working JavaFX app.
+7. Clone this repository using **GitHub Desktop** (you installed this in step 2). You can see where, in your computer, the repository was cloned to by going to GitHub Desktop and hovering over the repository name.
+
+8. Open **Apache NetBeans 11**. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 11 to import these settings or configuration from NetBeans 8.
+
+9. In NetBeans 11, click on **NetBeans --> About NetBeans** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
+
+10. Open this repository in NetBeans 11. You will see that it compiles to a working JavaFX app.
