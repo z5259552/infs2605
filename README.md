@@ -3,7 +3,7 @@
 ## What is this?
 This is a starter kit for INFS2605 students. It will set you up to develop JavaFX applications on the Java 11 platform using NetBeans 11, OpenJDK 11 and OpenJFX 11.
 
-## System requirements
+## System Requirements
 For macOS:
 - macOS **10.14 Mojave** or **macOS 10.15 Catalina** (using 10.14 Mojave if you need to maintain backwards compatibility with other 32-bit software that you need installed on your computer).
 - Older versions of macOS might not work properly. If your computer does not support at least macOS 10.14 Mojave, it may be too old to run the required sofware anyway.
@@ -16,7 +16,7 @@ For Windows:
 - Windows 7 will probably work, but we cannot assist with your setup unless you are running Windows 10. On Windows 7, you will need to install PowerShell 3: https://www.microsoft.com/en-au/download/details.aspx?id=34595
 - It is always best practice to keep your computer updated with the latest updates from Microsoft. This is important not only for compatibility with new software, but also to receive security patches.
 
-## Setup instructions for macOS
+## Setup Instructions for macOS
 1. Install Homebrew: https://brew.sh/
 2. Copy and paste this into Terminal and hit the `ENTER` key on your keyboard to execute the command:
     ```
@@ -52,7 +52,7 @@ For Windows:
 
 
 
-## Setup instructions for Windows
+## Setup Instructions for Windows
 1. Install Chocolatey: https://chocolatey.org/
 2. Open the Windows Start Menu and type `cmd`. Right click the **Command Prompt** menu item and select **Run as administrator**. Copy and paste this into Command Prompt and hit the `ENTER` key on your keyboard to execute the command:
     ```
@@ -77,3 +77,29 @@ For Windows:
 9. In NetBeans 11, click on **NetBeans --> About NetBeans** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
 
 10. Open this repository in NetBeans 11. You will see that it compiles to a working JavaFX app.
+
+## Configuring NetBeans 11 to use JDK 11
+
+1. Open the folder in which NetBeans 11 configuration lives:
+    - On macOS, that is `/Applications/NetBeans/Apache NetBeans 11.2.app/Contents/Resources/NetBeans/netbeans/etc`, you can navigate there using similar technique to Step 4 in the Setup Instructions for macOS.
+    - On Windows, that is `C:\ProgramData\chocolatey\lib\apache-netbeans.portable\App\netbeans\etc`.
+    
+2. Open the file `netbeans.conf` for editing:
+    - On macOS, you can edit the file by just opening it using `TextEdit.app`, which is built into macOS.
+    - On Windows, you can't just use Notepad (it will render the file poorly). You can install Notepad++ (`cinst -y notepadplusplus.install`) and then open Notepad++ **as administrator** to edit the file.
+    
+3. Search for "netbeans_jdkhome". On that line, remove the `#` at the start of the line.
+
+4. Replace `/path/to/jdk` with the actual path for JDK 11:
+    - On macOS, you already copied the path to clipboard using Step 3 in the Setup Instructions for macOS.
+    - On Windows, you discovered the full path in Step 3 in the Setup Instructions for macOS. Be sure the include the final part of the path also, i.e., do not drop the part with `jdk-11.0.6.10-hotspot` (your version number might be higher, this is OK).
+
+5. That line now looks something like:
+
+    ```
+    netbeans_jdkhome="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"
+    ```
+    
+6. Save the `netbeans.conf` file.
+
+7. Repeat step 9 of the Setup Instructions for your platform to confirm you are now using JDK 11.
