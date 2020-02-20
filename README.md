@@ -106,10 +106,12 @@ For Windows:
 
 ## Known Issues
 
-- There is a known issue on macOS where this repository does not work properly if it is stored in a folder whose name has a spacebar (e.g. `/Users/Alice/INFS2605 2020/infs2605fxstarterkit`). The solution is to ensure that the full path does not, at any point, contain the spacebar character (e.g. consider renaming to: `/Users/Alice/INFS2605-2020/infs2605fxstarterkit`).
+- There is a known issue where this repository does not work properly if it is stored in a folder whose name has a spacebar (e.g. `/Users/Alice/INFS2605 2020/infs2605fxstarterkit`). The solution is to ensure that the full path does not, at any point,  contain the spacebar character (e.g. consider renaming to: `/Users/Alice/INFS2605-2020/infs2605fxstarterkit`). The root cause of this issue is relating to how the build system, Maven, interprets addresses to maintain backwards compatibility with systems going all the way back to the 1980s! See: https://stackoverflow.com/questions/18724226/why-shouldnt-i-put-spaces-in-my-maven-path-in-windows
+
+- There is a known issue on Windows where Chocolatey only partially downloads a file (such as the ZIP file for NetBeans) and then is unable to use the file. If re-attempting the Chocolatey installation step doesn't work, you can download the file directly from the URL shown in the Command Prompt, and then place it into the Chocolatey "temp" directory specified in the Command Prompt.
 
 ## Acknowledgements
 
 - These instructions were written by [Blair Wang](www.blair.wang) for INFS2605 at UNSW Business School
 - These instructions are adapted from https://dzone.com/articles/adoptopenjdk-11-openjfx-netbeans
-- Thanks to the following INFS2605 (Term 1, 2020) tutors for testing: Kathy Xu, Aaron Ting, Jacob Meyerowitz, Phoebe Zhou.
+- Thanks to the following INFS2605 (Term 1, 2020) tutors for testing: Kathy Xu, Aaron Ting, Jacob Meyerowitz, Phoebe Zhou, Matthew Perry.
