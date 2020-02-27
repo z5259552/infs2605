@@ -27,16 +27,13 @@ For Windows:
     - The command has finished executing once no more lines of information continue to appear in the Terminal and you just have the same prompt you had when you first opened the Terminal.
     
     
-3. Now execute this command:
-    ```
-    /usr/libexec/java_home | tr -d '\n' | pbcopy
-    ```
-    - The first part, `/usr/libexec/java_home`, identifies the location of the JDK we installed in step 2.
-    - The pipe symbol, `|`, sends information from the first part to the second part.
-    - `tr -d '\n'` strips away the "new line" ("enter") symbol.
-    - `pbcopy` copies data to the clipboard.
+3. Open the Finder program on your Mac, and use the keyboard shortcut Command + SHIFT + G to open the "Go to Folder" pop-up.
 
-4. Go to Finder, and use the keyboard shortcut Command + SHIFT + G to open the "Go to Folder" pop-up. Now use Command + V to paste the data we acquired in step 3.
+4. Copy and paste the following path:
+
+    ```
+    /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+    ```
 
 5. Now you are in a folder with items `bin`, `bundle`, `conf`, ... `man`, `release`. Open the folder called `jmods`. You will now see that it contains a lot of files that all end with the file extension `.jmod`.
 
@@ -91,7 +88,7 @@ For Windows:
 3. Search for "netbeans_jdkhome". On that line, remove the `#` at the start of the line.
 
 4. Replace `/path/to/jdk` with the actual path for JDK 11:
-    - On macOS, you already copied the path to clipboard using Step 3 in the Setup Instructions for macOS.
+    - On macOS, this is the path from Step 4 of the Setup Instructions for macOS.
     - On Windows, you discovered the full path in Step 3 in the Setup Instructions for macOS. Be sure the include the final part of the path also, i.e., do not drop the part with `jdk-11.0.6.10-hotspot` (your version number might be higher, this is OK).
 
 5. That line now looks something like:
