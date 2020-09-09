@@ -1,7 +1,7 @@
 # INFS2605 FX Starter Kit
 
 ## What is this?
-This is a starter kit for INFS2605 students. It will set you up to develop JavaFX applications on the Java 11 platform using NetBeans 11, OpenJDK 11 and OpenJFX 11.
+This is a starter kit for INFS2605 students. It will set you up to develop JavaFX applications on the Java 11 platform using NetBeans 12, OpenJDK 11 and OpenJFX 11.
 
 ## System Requirements
 For macOS:
@@ -42,11 +42,11 @@ For Windows:
 
 7. Clone this repository using **GitHub Desktop** (you installed this in step 2). You can see where, in your computer, the repository was cloned to by going to GitHub Desktop and hovering over the repository name.
 
-8. Open **Apache NetBeans 11**. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 11 to import these settings or configuration from NetBeans 8.  (If you have accidentally allowed NetBeans 11 to import settings or configuration from NetBeans 8, you can reinstall NetBeans 11 with the command `brew cask remove netbeans; brew cask install netbeans`.)
+8. Open **Apache NetBeans 12**. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 11 to import these settings or configuration from NetBeans 8.  (If you have accidentally allowed NetBeans 11 to import settings or configuration from NetBeans 8, you can reinstall NetBeans 11 with the command `brew cask remove netbeans; brew cask install netbeans`.)
 
-9. In NetBeans 11, click on **Help --> About** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
+9. In NetBeans 12, click on **Help --> About** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
 
-10. Open this repository in NetBeans 11. You will see that it compiles to a working JavaFX app.
+10. Open this repository in NetBeans 12. You will see that it compiles to a working JavaFX app.
 
 
 
@@ -70,15 +70,15 @@ For Windows:
 
 7. Clone this repository using **GitHub Desktop** (you installed this in step 2). You can see where, in your computer, the repository was cloned to by going to GitHub Desktop and hovering over the repository name.
 
-8. Open **Apache NetBeans 11**. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 11 to import these settings or configuration from NetBeans 8. (If you have accidentally allowed NetBeans 11 to import settings or configuration from NetBeans 8, you can uninstall NetBeans 11 with the command `choco uninstall -y apache-netbeans.portable` and then repeat step 2.)
+8. Open **Apache NetBeans 12** (search for netbeans64.exe). If you receive a `Cannot find Java` error, follow the steps under `Configuring NetBeans 12 to use JDK 11` and then re-open Netbeans. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 11 to import these settings or configuration from NetBeans 8. (If you have accidentally allowed NetBeans 11 to import settings or configuration from NetBeans 8, you can uninstall NetBeans 11 with the command `choco uninstall -y apache-netbeans.portable` and then repeat step 2.)
 
-9. In NetBeans 11, click on **NetBeans --> About NetBeans** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
+9. In NetBeans 12, click on **Help --> About** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
 
-10. Open this repository in NetBeans 11. You will see that it compiles to a working JavaFX app.
+10. Open this repository in NetBeans 12. Click on **Run --> Clean and Build**. You will see that it compiles to a working JavaFX app.
 
-## Configuring NetBeans 11 to use JDK 11
+## Configuring NetBeans 12 to use JDK 11
 
-1. Open the folder in which NetBeans 11 configuration lives:
+1. Open the folder in which NetBeans 12 configuration lives:
     - On macOS, that is `/Applications/NetBeans/Apache NetBeans 11.2.app/Contents/Resources/NetBeans/netbeans/etc`, you can navigate there using similar technique to Step 4 in the Setup Instructions for macOS.
     - On Windows, that is `C:\ProgramData\chocolatey\lib\apache-netbeans.portable\App\netbeans\etc`.
     
@@ -92,10 +92,14 @@ For Windows:
     - On macOS, this is the path from Step 4 of the Setup Instructions for macOS.
     - On Windows, you discovered the full path in Step 3 in the Setup Instructions for macOS. Be sure the include the final part of the path also, i.e., do not drop the part with `jdk-11.0.6.10-hotspot` (your version number might be higher, this is OK).
 
-5. That line now looks something like:
+5. That line now looks something like on Mac:
 
     ```
     netbeans_jdkhome="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"
+    ```
+	Or on Windows:
+	```
+    netbeans_jdkhome="C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot"
     ```
     
 6. Save the `netbeans.conf` file.
