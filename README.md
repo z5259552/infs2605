@@ -46,7 +46,7 @@ For Windows:
 
 9. In NetBeans 12, click on **Help --> About** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
 
-10. Open this repository in NetBeans 12. You will see that it compiles to a working JavaFX app.
+10. Open this repository in NetBeans 12. Click on **Run --> Clean and Build**. You will see that it compiles to a working JavaFX app.
 
 
 
