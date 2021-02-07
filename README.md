@@ -45,9 +45,13 @@ For Windows:
 
 8. Open **Apache NetBeans 12**. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 12 to import these settings or configuration from NetBeans 8.  (If you have accidentally allowed NetBeans 12 to import settings or configuration from NetBeans 8, you can reinstall NetBeans 12 with the command `brew remove --cask netbeans; brew install --cask netbeans`.)
 
-9. In NetBeans 12, click on **Help --> About** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
+9. In NetBeans 12, click on **Help &rarr; About** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
 
-10. Open this repository in NetBeans 12. Click on **Run --> Clean and Build**. You will see that it compiles to a working JavaFX app.
+10. Open this repository in NetBeans 12. You may be invited to install the `nb-javac` Java editing support library. If so, please let this install before proceeding.
+
+11. Click on **Run &rarr; Clean and Build**. You will see that it compiles to a working JavaFX app.
+
+12. If prompted to do so, please allow `sh` to capture keystrokes.
 
 
 
@@ -73,9 +77,11 @@ For Windows:
 
 8. Open **Apache NetBeans 12** (search for netbeans64.exe). If you receive a `Cannot find Java` error, follow the steps under `Configuring NetBeans 12 to use JDK 11` and then re-open Netbeans. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 11 to import these settings or configuration from NetBeans 8. (If you have accidentally allowed NetBeans 11 to import settings or configuration from NetBeans 8, you can uninstall NetBeans 11 with the command `choco uninstall -y apache-netbeans.portable` and then repeat step 2.)
 
-9. In NetBeans 12, click on **Help --> About** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
+9. In NetBeans 12, click on **Help &rarr; About** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
 
-10. Open this repository in NetBeans 12. Click on **Run --> Clean and Build**. You will see that it compiles to a working JavaFX app.
+10. Open this repository in NetBeans 12. You may be invited to install the `nb-javac` Java editing support library. If so, please let this install before proceeding.
+
+11. Click on **Run &rarr; Clean and Build**. You will see that it compiles to a working JavaFX app.
 
 ## Configuring NetBeans 12 to use JDK 11
 
