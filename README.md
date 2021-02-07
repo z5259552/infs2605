@@ -3,11 +3,12 @@
 ## What is this?
 This is a starter kit for INFS2605 students. It will set you up to develop JavaFX applications on the Java 11 platform using NetBeans 12, OpenJDK 11 and OpenJFX 11.
 
+UNSW students taking INFS2605 should feel free to base their program off this codebase.
+
 ## System Requirements
 For macOS:
-- macOS **10.14 Mojave** or **macOS 10.15 Catalina** (using 10.14 Mojave if you need to maintain backwards compatibility with other 32-bit software that you need installed on your computer).
-- **These instructions have _not_ been tested with macOS 11 Big Sur.**
-- Older versions of macOS might not work properly. If your computer does not support at least macOS 10.14 Mojave, it may be too old to run the required sofware anyway.
+- macOS **10.15 Catalina** or **macOS 10.15 Big Sur**, on an Intel processor. I have not tested these instructions on Apple Silicon (M1).
+- Older versions of macOS might not work properly. If your computer does not support at least macOS 10.15 Catalina, it may be too old to run the required software anyway.
 - It is always best practice to keep your computer updated with the latest updates from Apple. This is important not only for compatibility with new software, but also to receive security patches.
 
 For Windows:
@@ -21,7 +22,7 @@ For Windows:
 1. Install Homebrew: https://brew.sh/
 2. Copy and paste this into Terminal and hit the `ENTER` key on your keyboard to execute the command:
     ```
-    brew tap AdoptOpenJDK/openjdk; brew cask install adoptopenjdk11 netbeans github scenebuilder
+    brew tap AdoptOpenJDK/openjdk; brew install --cask adoptopenjdk11 netbeans github scenebuilder
     ```
     - While the command is executing, you will see lines of information appear on the Terminal. This is diagnostic information, it is not problematic.
     - You may be required to enter your administrator password. If prompted to do so, enter it. You will not see any dots appear to represent the hidden characters of your password, only the blinking terminal cursor staying at the same spot on the screen, but fear not - your password is being entered!
@@ -38,11 +39,11 @@ For Windows:
 
 5. Now you are in a folder with items `bin`, `bundle`, `conf`, ... `man`, `release`. Open the folder called `jmods`. You will now see that it contains a lot of files that all end with the file extension `.jmod`.
 
-6. Go to https://gluonhq.com/products/javafx/ and download the "Product" called **JavaFX Mac OS X jmods**. You will get a ZIP file - extract it by double-clicking it. You can see it contains 7 files that end with the file extension `.jmod`. Copy this into the folder from step 5.
+6. Go to https://gluonhq.com/products/javafx/ and download the "Product" called **JavaFX Mac OS X jmods** (version 11.0.2). You will get a ZIP file - extract it by double-clicking it. You can see it contains 7 files that end with the file extension `.jmod`. Copy this into the folder from step 5.
 
-7. Clone this repository using **GitHub Desktop** (you installed this in step 2). You can see where, in your computer, the repository was cloned to by going to GitHub Desktop and hovering over the repository name.
+7. Clone this repository (https://github.com/blairw/infs2605fxstarterkit) using **GitHub Desktop** (you installed this in step 2). You can see where, in your computer, the repository was cloned to by going to GitHub Desktop and hovering over the repository name.
 
-8. Open **Apache NetBeans 12**. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 11 to import these settings or configuration from NetBeans 8.  (If you have accidentally allowed NetBeans 11 to import settings or configuration from NetBeans 8, you can reinstall NetBeans 11 with the command `brew cask remove netbeans; brew cask install netbeans`.)
+8. Open **Apache NetBeans 12**. On the first time you open it, you might receive a message asking if you want to import settings or configuration from NetBeans version 8 (if you previously had it installed). Do **not** allow NetBeans 12 to import these settings or configuration from NetBeans 8.  (If you have accidentally allowed NetBeans 12 to import settings or configuration from NetBeans 8, you can reinstall NetBeans 12 with the command `brew remove --cask netbeans; brew install --cask netbeans`.)
 
 9. In NetBeans 12, click on **Help --> About** and confirm that the versions for **Java** and **Runtime** are both version 11. If you see anything like "1.8", you will need to configure your NetBeans to use JDK 11.
 
