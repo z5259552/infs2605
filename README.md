@@ -59,13 +59,13 @@ For Windows:
 1. Install Chocolatey: https://chocolatey.org/
 2. Open the Windows Start Menu and type `cmd`. Right click the **Command Prompt** menu item and select **Run as administrator**. Copy and paste this into Command Prompt and hit the `ENTER` key on your keyboard to execute the command:
     ```
-    cinst -y adoptopenjdk12 apache-netbeans.portable github-desktop
+    cinst -y adoptopenjdk11 apache-netbeans.portable github-desktop
     ```
     - While the command is executing, you will see lines of information appear on the Command Prompt. This is diagnostic information, it is not problematic.
     - The command has finished executing once no more lines of information continue to appear in the Command Prompt and you just have the same prompt you had when you first opened the Command Prompt: `C:\Windows\system32>`.
     - If the command seems to be stuck, try hitting the `ENTER` key a few times to push it along... :)
 
-3. Go to `C:\Program Files\AdoptOpenJDK\` in Windows Explorer and open the folder inside it that is named along the lines of `jdk-12.0.2+10` (your version number might be higher, this is OK).
+3. Go to `C:\Program Files\AdoptOpenJDK\` in Windows Explorer and open the folder inside it that is named along the lines of `jdk-11` (your version number might be higher, this is OK).
 
 4. Now you are in a folder with items `bin`, `bundle`, `conf`, ... `man`, `release`. Open the folder called `jmods`. You will now see that it contains a lot of files that all end with the file extension `.jmod`.
 
