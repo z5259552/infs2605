@@ -56,14 +56,18 @@ For Windows:
 
 
 ## Setup Instructions for Windows
-1. Install Chocolatey: https://chocolatey.org/
-2. Open the Windows Start Menu and type `cmd`. Right click the **Command Prompt** menu item and select **Run as administrator**. Copy and paste this into Command Prompt and hit the `ENTER` key on your keyboard to execute the command:
+1. Open the Windows Start Menu and type `cmd`. Right click the **Command Prompt** menu item and select **Run as administrator**. Copy and paste this into Command Prompt and hit the `ENTER` key on your keyboard to execute the command:
     ```
-    cinst -y adoptopenjdk11 apache-netbeans.portable github-desktop
+    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
     ```
     - While the command is executing, you will see lines of information appear on the Command Prompt. This is diagnostic information, it is not problematic.
     - The command has finished executing once no more lines of information continue to appear in the Command Prompt and you just have the same prompt you had when you first opened the Command Prompt: `C:\Windows\system32>`.
     - If the command seems to be stuck, try hitting the `ENTER` key a few times to push it along... :)
+
+2. Close the previous command prompt and open a new one: open the Windows Start Menu and type `cmd`. Right click the **Command Prompt** menu item and select **Run as administrator**. Copy and paste this into Command Prompt and hit the `ENTER` key on your keyboard to execute the command:
+    ```
+    cinst -y adoptopenjdk11 apache-netbeans.portable github-desktop
+    ```
 
 3. Go to `C:\Program Files\AdoptOpenJDK\` in Windows Explorer and open the folder inside it that is named along the lines of `jdk-11` (your version number might be higher, this is OK).
 
