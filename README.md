@@ -101,7 +101,7 @@ For Windows:
 
 4. Replace `/path/to/jdk` with the actual path for JDK 11:
     - On macOS, this is the path from Step 4 of the Setup Instructions for macOS.
-    - On Windows, you discovered the full path in Step 3 in the Setup Instructions for macOS. Be sure the include the final part of the path also, i.e., do not drop the part with `jdk-11.0.6.10-hotspot` (your version number might be higher, this is OK).
+    - On Windows, you discovered the full path in Step 3 in the Setup Instructions for macOS. Be sure the include the final part of the path also, i.e., do not drop the part with `jdk-11.0.10.9-hotspot` (your version number might be higher, this is OK).
 
 5. That line now looks something like on Mac:
 
@@ -110,7 +110,7 @@ For Windows:
     ```
 	Or on Windows:
 	```
-    netbeans_jdkhome="C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot"
+    netbeans_jdkhome="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot"
     ```
     
 6. Save the `netbeans.conf` file.
