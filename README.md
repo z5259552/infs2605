@@ -7,7 +7,7 @@ UNSW students taking INFS2605 should feel free to base their program off this co
 
 ## System Requirements
 For macOS:
-- macOS **10.15 Catalina** or **macOS 10.15 Big Sur**, on an Intel processor. I have not tested these instructions on Apple Silicon (M1).
+- macOS **10.15 Catalina** or **macOS 11 Big Sur**, on an Intel processor. I have not tested these instructions on Apple Silicon (M1).
 - Older versions of macOS might not work properly. If your computer does not support at least macOS 10.15 Catalina, it may be too old to run the required software anyway.
 - It is always best practice to keep your computer updated with the latest updates from Apple. This is important not only for compatibility with new software, but also to receive security patches.
 
