@@ -90,7 +90,7 @@ For Windows:
 ## Configuring NetBeans 12 to use JDK 11
 
 1. Open the folder in which NetBeans 12 configuration lives:
-    - On macOS, that is `/Applications/NetBeans/Apache NetBeans 12.0.app/Contents/Resources/NetBeans/netbeans/etc`, you can navigate there using similar technique to Step 4 in the Setup Instructions for macOS.
+    - On macOS, that is `/Applications/NetBeans/Apache NetBeans 12.2.app/Contents/Resources/NetBeans/netbeans/etc`, you can navigate there using similar technique to Step 4 in the Setup Instructions for macOS.
     - On Windows, that is `C:\ProgramData\chocolatey\lib\apache-netbeans.portable\App\netbeans\etc`.
     
 2. Open the file `netbeans.conf` for editing:
