@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="master_details.CreateController">
+   <children>
+      <Separator layoutY="43.0" minHeight="5.0" prefWidth="600.0" />
+      <Button fx:id="create_exit" layoutX="533.0" layoutY="8.0" mnemonicParsing="false" onAction="#switch_to_primary" prefHeight="27.0" prefWidth="53.0" text="Exit" />
+      <Label layoutX="36.0" layoutY="13.0" prefHeight="22.0" prefWidth="166.0" text="Create New Contact">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="62.0" prefHeight="27.0" prefWidth="135.0" text="Enter Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="create_name" layoutX="297.0" layoutY="62.0" />
+      <Label layoutX="146.0" layoutY="115.0" prefHeight="27.0" prefWidth="135.0" text="Enter Date of Birth">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="create_dob" layoutX="297.0" layoutY="115.0" />
+      <Label layoutX="88.0" layoutY="165.0" prefHeight="27.0" prefWidth="187.0" text="Are they a Personal Contact?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="213.0" prefHeight="27.0" prefWidth="187.0" text="Are they a Business Contact?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="create_personal" layoutX="302.0" layoutY="165.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="create_business" layoutX="302.0" layoutY="213.0" prefWidth="150.0" />
+      <Button fx:id="create_save" layoutX="490.0" layoutY="329.0" mnemonicParsing="false" onAction="#create_submitted" prefHeight="36.0" prefWidth="89.0" text="Save" />
+      <Label layoutX="123.0" layoutY="288.0" prefHeight="27.0" prefWidth="49.0" text="Case:" />
+      <TextArea fx:id="create_notes" layoutX="213.0" layoutY="264.0" prefHeight="101.0" prefWidth="247.0" />
+      <TextField fx:id="create_time" layoutX="102.0" layoutY="338.0" prefHeight="27.0" prefWidth="90.0" promptText="Date" />
+   </children>
+</Pane>
